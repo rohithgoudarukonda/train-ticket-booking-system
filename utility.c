@@ -1,49 +1,5 @@
 #include "main.h"
 #include "time.h"
-/*
-int valid_date(char current_date[], char booking_date[])
-{
-    int current_day;
-    int current_month;
-    int current_year;
-
-    int booking_day;
-    int booking_month;
-    int booking_year;
-
-    sscanf(current_date, "%d-%d-%d",
-           &current_day,
-           &current_month,
-           &current_year);
-
-    sscanf(booking_date, "%d-%d-%d",
-           &booking_day,
-           &booking_month,
-           &booking_year);
-
-    if (current_year != booking_year)
-    {
-        return 0;
-    }
-
-    if (current_month != booking_month)
-    {
-        return 0;
-    }
-
-    if (booking_day < current_day)
-    {
-        return 0;
-    }
-
-    if (booking_day > current_day + 3)
-    {
-        return 0;
-    }
-
-    return 1;
-}*/
-
 
 int days_in_month(int month, int year)
 {
