@@ -22,7 +22,12 @@ void menu1()
         printf("--------------------------------------------\n");
 
         printf("Enter your choice: ");
-        scanf("%d", &choice);
+       if(scanf("%d", &choice)!=1)
+	   {
+		   printf("\nInvalid input enter numbers only.\n");
+		   while(getchar()!='\n');
+			   continue;
+	   }
 
         switch (choice)
         {
