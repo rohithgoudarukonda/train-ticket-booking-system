@@ -2,13 +2,8 @@
 
 int main()
 {
-   /* menu1();
-   add_train();
-   add_train();
-   save_trains();*/
    load_trains();
    menu1();
-  // show_trains();
     return 0;
 }
 
